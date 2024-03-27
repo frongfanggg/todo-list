@@ -1,10 +1,10 @@
 import "./App.css";
-import TodoListPage from "./pages/todo-list";
+import StyleComponent from "./pages/style";
 
 function App() {
   return (
     <>
-      <TodoListPage />
+      <StyleComponent />
     </>
   );
 }
