@@ -3,6 +3,7 @@ import { useState } from "react";
 import TodoListForm from "./form";
 import TodoList from "./list";
 import { Form } from "antd";
+import ContainerPage from "../../components/content";
 
 const TodoListPage = () => {
   const [form] = Form.useForm();
@@ -40,10 +41,10 @@ const TodoListPage = () => {
   };
 
   return (
-    <>
+    <ContainerPage title="style">
       <TodoListForm form={form} onFinish={onFinish} />
       <TodoList getTodo={getTodo} editTodo={editTodo} removeTodo={removeTodo} />
-    </>
+    </ContainerPage>
   );
 };
 
