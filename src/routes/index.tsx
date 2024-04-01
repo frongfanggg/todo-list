@@ -13,7 +13,7 @@ const APP_ROUTES: RouteObject[] = [
         element: <StyleComponent />,
       },
       {
-        path: "/warehouse",
+        path: "/todo-list",
         element: <TodoListPage />,
       },
     ],

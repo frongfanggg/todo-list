@@ -41,7 +41,7 @@ const TodoListPage = () => {
   };
 
   return (
-    <ContainerPage title="style">
+    <ContainerPage title="todo-list">
       <TodoListForm form={form} onFinish={onFinish} />
       <TodoList getTodo={getTodo} editTodo={editTodo} removeTodo={removeTodo} />
     </ContainerPage>
